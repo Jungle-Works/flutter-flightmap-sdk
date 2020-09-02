@@ -1,0 +1,34 @@
+name: flightmap_gl
+description: A Flutter plugin for integrating Mapbox Maps inside a Flutter application on Android, iOS and web platfroms.
+version: 0.1.8
+#homepage: https://github.com/tobrun/flutter-mapbox-gl.git
+homepage: https://github.com/Jungle-Works/flutter-flightmap-sdk
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flightmap_gl_platform_interface: ^0.7.0
+#    git:
+#      url: https://github.com/tobrun/flutter-mapbox-gl.git
+#      path: flightmap_gl_platform_interface
+  flightmap_gl_web: ^0.7.0
+#      git:
+#        url: https://github.com/Jungle-Works/flutter-flightmap-sdk.git
+#        path: flightmap_gl_web
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.mapbox.mapboxgl
+        pluginClass: MapboxMapsPlugin
+      ios:
+        pluginClass: MapboxMapsPlugin
+      web:
+        default_package: mapbox_gl_web
+        
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  # Flutter versions prior to 1.10 did not support the flutter.plugin.platforms map.
+  flutter: ">=1.10.0 <2.0.0"

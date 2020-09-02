@@ -1,0 +1,1 @@
+Contains the web interfaces for the [Flutter FlightMap GL plugin](https://github.com/Jungle-Works/flutter-flightmap-sdk).
