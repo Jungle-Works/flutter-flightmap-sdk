@@ -218,6 +218,8 @@ class PlaceCircleBodyState extends State<PlaceCircleBody> {
             child: MapboxMap(
               accessToken: MapsDemo.ACCESS_TOKEN,
               onMapCreated: _onMapCreated,
+              styleString: MapboxStyles.LIGHT,
+
               initialCameraPosition: const CameraPosition(
                 target: LatLng(-33.852, 151.211),
                 zoom: 11.0,

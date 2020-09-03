@@ -43,6 +43,8 @@ class AnimateCameraState extends State<AnimateCamera> {
             child: MapboxMap(
               accessToken: MapsDemo.ACCESS_TOKEN,
               onMapCreated: _onMapCreated,
+              styleString: MapboxStyles.LIGHT,
+
               initialCameraPosition:
                   const CameraPosition(target: LatLng(0.0, 0.0)),
             ),

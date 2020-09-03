@@ -145,9 +145,10 @@ class LineBodyState extends State<LineBody> {
             child: MapboxMap(
               accessToken: MapsDemo.ACCESS_TOKEN,
               onMapCreated: _onMapCreated,
+              styleString: MapboxStyles.DARK,
               onStyleLoadedCallback: onStyleLoadedCallback,
               initialCameraPosition: const CameraPosition(
-                target: LatLng(-33.852, 151.211),
+                target: LatLng(30.7333, 76.7794),
                 zoom: 11.0,
               ),
             ),

@@ -51,6 +51,7 @@ class _ScrollingMapBodyState extends State<ScrollingMapBody> {
                     child: MapboxMap(
                       accessToken: MapsDemo.ACCESS_TOKEN,
                       onMapCreated: onMapCreatedOne,
+                      styleString: MapboxStyles.DARK,
                       onStyleLoadedCallback: () => onStyleLoaded(controllerOne),
                       initialCameraPosition: CameraPosition(
                         target: center,

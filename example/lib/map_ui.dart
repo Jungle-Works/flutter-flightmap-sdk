@@ -45,7 +45,7 @@ class MapUiBodyState extends State<MapUiBody> {
   // Style string can a reference to a local or remote resources.
   // On Android the raw JSON can also be passed via a styleString, on iOS this is not supported. 
   List<String> _styleStrings = [MapboxStyles.LIGHT, MapboxStyles.LIGHT, "assets/style.json"];
-  List<String> _styleStringLabels = ["LIGHT", "DARK", "LOCAL_ASSET"];
+  List<String> _styleStringLabels = ["LIGHT", "DARK", "LIGHT"];
   bool _rotateGesturesEnabled = true;
   bool _scrollGesturesEnabled = true;
   bool _tiltGesturesEnabled = true;

@@ -41,6 +41,8 @@ class MoveCameraState extends State<MoveCamera> {
             child: MapboxMap(
               accessToken: MapsDemo.ACCESS_TOKEN,
               onMapCreated: _onMapCreated,
+              styleString: MapboxStyles.LIGHT,
+
               onCameraIdle: ()=>print("onCameraIdle"),
               initialCameraPosition:
                   const CameraPosition(target: LatLng(0.0, 0.0)),
