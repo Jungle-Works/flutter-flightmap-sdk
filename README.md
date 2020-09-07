@@ -5,7 +5,7 @@
 
 This Flutter plugin allows to show embedded interactive and customizable vector maps inside a Flutter widget. For the Android and iOS integration, we use [flightmap-gl-native](https://app.flightmap.io/v2/).
 
-<img src=![screenshot.png](screenshot.png) width="48">
+![screenshot.png](screenshot.png) 
 ![screenshotlines.png](screenshotlines.png)
 ![screenshotmarker.png](screenshotmarker.png)
 ![screenshotscroll.png](screenshotscroll.png) 
