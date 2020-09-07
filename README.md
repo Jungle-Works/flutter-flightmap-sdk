@@ -1,10 +1,11 @@
 
 # Flutter FlightMap GL
 
-> **Please note that this project is community driven and is an official FlightMap product.** We welcome [feedback](https://app.flightmap.io/v2/) and contributions.
+> **Please note that this project is community driven and is an official FlightMap product.** 
 
 This Flutter plugin allows to show embedded interactive and customizable vector maps inside a Flutter widget. For the Android and iOS integration, we use [flightmap-gl-native](https://app.flightmap.io/v2/).
-![screenshot.png](screenshot.png)
+
+<img src=![screenshot.png](screenshot.png) width="48">
 ![screenshotlines.png](screenshotlines.png)
 ![screenshotmarker.png](screenshotmarker.png)
 ![screenshotscroll.png](screenshotscroll.png) 
@@ -23,13 +24,11 @@ th `flutter devices`
 
 ## Adding a FlightMap Access Token
 
-This project uses FlightMap vector tiles, which requires a FlightMap account and a FlightMap access token. Obtain a free access token on [your FlightMap account page](https://app.flightmap.io/v2/hud/api_keys).
+This project uses FlightMap vector tiles, which requires a FlightMap account and a FlightMap access token. Obtain a an access token on [your FlightMap account page](https://app.flightmap.io/v2/hud/api_keys).
 > **Even if you do not use FlightMap vector tiles but vector tiles from a different source (like self-hosted tiles) with this plugin, you will need to specify any non-empty string as Access Token as explained below!**
 
 
-The **recommended** way to provide your access token is through the `FlightMap` constructor's `accessToken` parameter, which is available starting from the v0.8 release. Note that you should always use the same token throughout your entire app.
-
-An alternative method to provide access tokens that was required until the v0.7 release is described in [this wiki article](https://app.flightmap.io/v2/hud/api_keys).
+The **recommended** way to provide your access token is through the `FlightMap` constructor's `accessToken` parameter. Note that you should always use the same token throughout your entire app.
 
 ## Using the SDK in your project
 
@@ -73,10 +72,6 @@ If you access your users' location, you should also add the following key to you
 
 FlightMap [recommends](https://docs.FlightMap.com/help/tutorials/first-steps-ios-sdk/#display-the-users-location) the explanation "Shows your location on the map and helps improve the map".
 
-## Documentation
-
-This README file currently houses all of the documentation for this Flutter project. Please visit [FlightMap.com/android-docs](https://www.FlightMap.com/android-docs/) if you'd like more information about the FlightMap Maps SDK for Android and [FlightMap.com/ios-sdk](https://www.FlightMap.com/ios-sdk/) for more information about the FlightMap Maps SDK for iOS.
-
 ## Getting Help
 
 - **Need help with your code?**: Look for previous questions on the [#FlightMap tag]https://github.com/Jungle-Works/flutter-flightmap-sdk) — or [ask a new question](https://github.com/Jungle-Works/flutter-flightmap-sdk).
@@ -84,6 +79,4 @@ This README file currently houses all of the documentation for this Flutter proj
 - **Have a feature request?** [Open an issue](https://github.com/Jungle-Works/flutter-flightmap-sdk). Tell us what the feature should do and why you want the feature.
 
 
-## Contributing
 
-We welcome contributions to this repository! If you're interested in helping build this FlightMap/Flutter integration, please read [the contribution guide](https://github.com/Jungle-Works/flutter-flightmap-sdk/blob/master/CONTRIBUTING.md) to learn how to get started.
