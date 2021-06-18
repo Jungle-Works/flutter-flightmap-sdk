@@ -17,9 +17,6 @@ rootProject.allprojects {
         google()
         jcenter()
         mavenCentral()
-        maven { url 'https://dl.bintray.com/flightmap/com.flightmap' }
-        maven { url 'https://dl.bintray.com/flightmap/flightmapjavasdk' }
-        maven { url 'https://dl.bintray.com/flightmap/flightmapnavigationsdk' }
     }
 }
 
