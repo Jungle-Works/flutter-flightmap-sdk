@@ -30,7 +30,7 @@ final List<ExamplePage> _allPages = <ExamplePage>[
 
 class MapsDemo extends StatelessWidget {
   //FIXME: Add your Mapbox access token here
-  static const String ACCESS_TOKEN = "";
+  static const String ACCESS_TOKEN = "2e769c60-174c-11ea-acdf-896965e04014";
 
   void _pushPage(BuildContext context, ExamplePage page) async {
     if (!kIsWeb) {
@@ -50,7 +50,7 @@ class MapsDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('FlightMap Map examples')),
+      appBar: AppBar(title: const Text('MapboxMaps examples')),
       body: ListView.builder(
         itemCount: _allPages.length,
         itemBuilder: (_, int index) => ListTile(
