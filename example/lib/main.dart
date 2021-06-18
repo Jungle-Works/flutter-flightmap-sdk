@@ -50,7 +50,7 @@ class MapsDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('MapboxMaps examples')),
+      appBar: AppBar(title: const Text('FlightMap Map examples')),
       body: ListView.builder(
         itemCount: _allPages.length,
         itemBuilder: (_, int index) => ListTile(
